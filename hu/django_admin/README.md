@@ -4,7 +4,6 @@ Az előbb elkészítettük a bejegyzések modelljeit. Ahhoz, hogy létrehozhassu
 
 Nyisd meg a `blog/admin.py` fájlt, és cseréld ki a benne lévő kódot erre:
 
-    python
     from django.contrib import admin
     from .models import Post
     
